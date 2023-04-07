@@ -1,0 +1,32 @@
+.promptForLink{
+  margin:10px 0;
+  display:flex;
+  padding:0 10px;
+}
+.promptForLinkInputUrl{
+  border:0 none;
+  outline:none;
+  border-bottom:1px solid #aaa;
+  flex-grow:1;
+}
+.promptForLinkButton{
+  border:1px solid #999;
+  background-color:#fff;
+  border-radius:3px;
+  outline:none;
+  cursor:pointer;
+}
+.promptForLinkButton:hover{
+  background-color:#eee;
+}
+.button{
+ background-color: #fff;
+ line-height:3;
+ border:0 none;
+ cursor:pointer;
+ border-bottom:1px solid transparent;
+}
+.button:hover{
+  background-color:#eee;
+  border-bottom:1px solid #D5810E;
+}

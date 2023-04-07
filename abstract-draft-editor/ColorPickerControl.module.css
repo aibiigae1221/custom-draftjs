@@ -1,0 +1,70 @@
+.colorPicker{
+  font-size:13px;
+  display:inline;
+  cursor:pointer;
+  background-color:#fff;
+  border:1px solid #999;
+  position:absolute;
+  bottom:-85px;
+  right:0;
+  padding:10px;
+  z-index:5;
+}
+.colorPickerHeader{
+  display:block;
+  margin:10px 0;
+  font-size:18px;
+}
+.button{
+ background-color: #fff;
+ line-height:3;
+ border:0 none;
+ cursor:pointer;
+ border-bottom:1px solid transparent;
+}
+.button:hover{
+  background-color:#eee;
+  border-bottom:1px solid #D5810E;
+}
+.colorBox{
+  width:20px;
+  height:20px;
+  cursor:pointer;
+  display:inline-block;
+  margin-right:10px;
+  ;
+}
+.colorBlack{
+  background-color:black;
+}
+.colorRed{
+  background-color:red;
+}
+.colorBlue{
+  background-color:blue;
+}
+.colorGreen{
+  background-color:green;
+}
+.colorYellow{
+  background-color:yellow;
+}
+.colorOrange{
+  background-color:orange;
+}
+.colorGray{
+  background-color:gray;
+}
+.colorPurple{
+  background-color:purple;
+}
+.buttonHolder{
+  text-align:right;
+}
+.closeButton{
+  background-color:#fff;
+  outline:none;
+  border:1px solid #999;
+  margin-top:10px;
+  cursor:pointer;
+}

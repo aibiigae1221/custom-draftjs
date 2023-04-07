@@ -1,0 +1,35 @@
+.link{
+  color:#3b5998;
+  text-decoration:underline;
+  position:relative;
+}
+.hrefModal{
+  position:absolute;
+  z-index:1;
+  border:1px solid #aaa;
+  background-color:#fff;
+  padding:10px;
+  display:flex;
+  min-width:200px;
+}
+
+.anchor{
+  border:1px solid #999;
+  display:block;
+  line-height:1;
+  flex-grow:1;
+  color:#3b5998;
+  text-decoration:underline;
+  max-width:300px;
+  padding:0 10px;
+  font-size:15px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+.closeButton{
+  border:1px solid #999;
+  background-color:#0C9703;
+  color:#fff;
+}

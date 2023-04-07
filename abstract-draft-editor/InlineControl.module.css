@@ -1,0 +1,23 @@
+.button{
+ background-color: #fff;
+ line-height:3;
+ border:0 none;
+ cursor:pointer;
+ border-bottom:1px solid transparent;
+}
+.button:hover{
+  background-color:#eee;
+  border-bottom:1px solid #D5810E;
+}
+.boldButton{
+  font-weight:bold;
+}
+.italicButton{
+  font-style:italic;
+}
+.underlineButton{
+  text-decoration:underline;
+}
+.strikeThroughButton{
+  text-decoration:line-through;
+}
