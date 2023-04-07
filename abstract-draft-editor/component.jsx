@@ -242,7 +242,7 @@ const AbstractDraftEditor = ({dataChangeCallback}) => {
   };
 
   return (
-    <div className="editor-wrap" onClick={focusEdtior}>
+    <div className="editor-wrap">
       <Controls
         handleInlineToggle={handleInlineToggle}
         showColorPicker={showColorPicker}
@@ -261,16 +261,17 @@ const AbstractDraftEditor = ({dataChangeCallback}) => {
       />
 
 
-
-      <Editor
-        editorState={editorState}
-        onChange={onChange}
-        handleKeyCommand={handleKeyCommand}
-        placeholder="텍스트 입력.."
-        keyBindingFn={myKeyBindingFn}
-        customStyleMap={colorStyleMap}
-        ref={editorRef}
-      />
+      <div onClick={focusEdtior}>
+        <Editor
+          editorState={editorState}
+          onChange={onChange}
+          handleKeyCommand={handleKeyCommand}
+          placeholder="텍스트 입력.."
+          keyBindingFn={myKeyBindingFn}
+          customStyleMap={colorStyleMap}
+          ref={editorRef}
+        />
+      </div>
     </div>
   );
 };
